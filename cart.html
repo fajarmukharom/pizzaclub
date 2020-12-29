@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="css/all.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <title>Keranjang - Pizza Club</title>
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container justify-content-center">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/img/pizzaclub_logo.png" width="114" class="d-inline-block align-top" alt="" loading="lazy">
+            </a>
+            </div>
+        </div>
+      </nav>
+    <!-- Akhir Navbar -->
+    
+    <!-- Breadcumb -->
+    <div class="container mt-5">
+        <nav aria-label="breadcrumb mt-5 pt-5">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Keranjang</li>
+            </ol>
+        </nav>
+    </div>
+    <!-- End of Breadcumb -->
+    
+    
+    <!-- Judul Awal --> 
+        <section class="menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center pt-4">
+                        <h2>Keranjang Kamu</h2>
+                        <p>Periksa kembali pesanan kamu sebelum checkout</p>
+                    </div>
+                </div>
+            </div>
+    </section> 
+    <!-- End of Judul Awal -->
+
+
+    <!-- Checkout Items -->
+
+    <section class="checkout">
+        <div class="container">
+            <div class="row" style="margin-bottom: 100px;">
+                <div class="col-lg-7">
+                    <h4 class="mb-4">Pesanan Kamu</h4>
+
+                    <div class="row mb-2">
+                        <div class="col-xl-2 col-lg-3 col-md-2 col-sm-2 d-none d-sm-block d-md-block">
+                            <img class="img-cart" src="assets/img/pizza1.png">
+                        </div>
+                        <div class="col-xl-6 col-lg-4 col-md-6 col-sm-5 col-7 ">
+                            <h5 class="m-0 pt-2">Cheese Meatball Classic</h5>
+                            <p class="my-0 price">Rp134.000</p>
+                            <p class="m-0 caption">Ukuran: Medium</p>
+                        </div>
+                        <div class="col-5 col-sm-5 col-md-4 col-lg-5 col-xl-4">
+                            <button class="btn btn-secondary btn-sm" type="button"><i class="fas fa-minus"></i></button>
+                            <input class="qty" type="text" value="1" maxlength="2">
+                            <button class="btn btn-success btn-sm" type="button"><i class="fas fa-plus"></i></button>
+                            <button class="btn btn-danger btn-sm ml-3" type="button"><i class="far fa-trash-alt"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="row mb-2">
+                        <div class="col-xl-2 col-lg-3 col-md-2 col-sm-2 d-none d-sm-block d-md-block">
+                            <img class="img-cart" src="assets/img/menu1.png">
+                        </div>
+                        <div class="col-xl-6 col-lg-4 col-md-6 col-sm-5 col-7 ">
+                            <h5 class="m-0 pt-2">Spaghetti w Sauce Bolognese</h5>
+                            <p class="my-0 price">Rp39.000</p>
+                        </div>
+                        <div class="col-5 col-sm-5 col-md-4 col-lg-5 col-xl-4">
+                            <button class="btn btn-secondary btn-sm" type="button"><i class="fas fa-minus"></i></button>
+                            <input class="qty" type="text" value="1" maxlength="2">
+                            <button class="btn btn-success btn-sm" type="button"><i class="fas fa-plus"></i></button>
+                            <button class="btn btn-danger btn-sm ml-3" type="button"><i class="far fa-trash-alt"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="row mb-2">
+                        <div class="col-lg-3 col-xl-2 col-md-2 col-sm-2 d-none d-sm-block d-md-block">
+                            <img class="img-cart" src="assets/img/menu3.png">
+                        </div>
+                        <div class="col-lg-4 col-xl-6 col-md-6 col-sm-5 col-7 ">
+                            <h5 class="m-0 pt-2">Salad Egg with Special Sauce</h5>
+                            <p class="my-0 price">Rp24.500</p>
+                        </div>
+                        <div class="col-5 col-sm-5 col-md-4 col-lg-5 col-xl-4">
+                            <button class="btn btn-secondary btn-sm" type="button"><i class="fas fa-minus"></i></button>
+                            <input class="qty" type="text" value="1" maxlength="2">
+                            <button class="btn btn-success btn-sm" type="button"><i class="fas fa-plus"></i></button>
+                            <button class="btn btn-danger btn-sm ml-3" type="button"><i class="far fa-trash-alt"></i></button>
+                        </div>
+                    </div>
+
+                    <h4 class="mb-4" style="margin-top: 75px;">Alamat Pengiriman</h4>
+                    <form>
+                        <div class="form-group">
+                            <label for="alamat">Alamat Lengkap</label>
+                            <input type="text" class="form-control" id="alamat" placeholder="Nama Jalan, Nomor Rumah, RT/RW">
+                        </div>
+                        <div class="form-group">
+                            <label for="provinsi">Provinsi</label>
+                            <select class="custom-select">
+                                <option selected>Pilih Provinsi</option>
+                                <option value="DKI Jakarta">DKI Jakarta</option>
+                                <option value="Jawa Barat">Jawa Barat</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="kecamatan">Kecamatan</label>
+                            <select class="custom-select">
+                                <option selected>Pilih Kecamatan</option>
+                                <option value="Bekasi Barat">Bekasi Barat</option>
+                                <option value="Bekasi Timur">Bekasi Timur</option>
+                                <option value="Jakarta Timur">Jakarta Timur</option>
+                                <option value="Jakarta Selatan">Jakarta Selatan</option>
+                                <option value="Jakarta Barat">Jakarta Barat</option>
+                            </select>  
+                        </div>
+                        <div class="form-group">
+                            <label for="kodepos">Kode Pos</label>
+                            <input type="text" class="form-control" id="kodepos" placeholder="Kode Pos">
+                        </div>
+                    </form>
+
+                </div>
+
+                <div class="col-lg-5">
+                    <div class="card detail-order">
+                        <div class="card-body">
+                          <h4 class="card-title mb-3">Informasi Biaya</h4>
+                          <div class="row mb-2">
+                              <div class="col-8">
+                                  <h6>Cheese Meatball Classic</h6>
+                                  <p class="caption">1 item, Medium</p>
+                              </div>
+                              <div class="col-4 d-flex justify-content-end">
+                                  <p class="price-detail align-self-center">Rp134.000</p>
+                              </div>
+                          </div>
+
+                          <div class="row mb-2">
+                            <div class="col-8">
+                                <h6>Spaghetti w Sauce Bolognese</h6>
+                                <p class="caption">1 item</p>
+                            </div>
+                            <div class="col-4 d-flex justify-content-end">
+                                <p class="price-detail align-self-center">Rp39.000</p>
+                            </div>
+                        </div>
+
+                        <div class="row mb-2">
+                          <div class="col-8">
+                              <h6>Salad Egg with Special Sauce</h6>
+                              <p class="caption">1 item</p>
+                          </div>
+                          <div class="col-4 d-flex justify-content-end">
+                              <p class="price-detail align-self-center">Rp24.500</p>
+                          </div>
+                      </div>
+                      <hr>
+
+                      <div class="row">
+                        <div class="col-8">
+                            <h6>Ongkos Kirim</h6>
+                        </div>
+                        <div class="col-4 d-flex justify-content-end">
+                            <p class="price-detail">Rp0</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-8">
+                          <h6>Diskon Spesial</h6>
+                      </div>
+                      <div class="col-4 d-flex justify-content-end">
+                          <p class="price-detail" style="color: red;">-Rp15.000</p>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-8 mt-1">
+                            <h4>Total</h4>
+                        </div>
+                        <div class="col-4 d-flex justify-content-end">
+                            <p class="price-detail" style="font-size: 22px;">Rp182.500</p>
+                        </div>
+                    </div>
+
+                    </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <button class="btn btn-wishlist mt-4 btn-block" type="button">Batalkan</button>
+                        </div>
+                        <div class="col">
+                            <button class="btn btn-primary mt-4 ml-2 btn-block" type="button" data-toggle="modal" data-target="#checkoutModal">Buat Pesanan</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End of Checkout Items -->
+
+    <!-- Modal Checkout -->
+    <div class="modal fade" id="checkoutModal" tabindex="-1" aria-labelledby="checkoutModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <img src="assets/img/img_success.png">
+                <h3>Pesanan Diterima</h3>
+                <p class="checkout-success">Pesanan sudah kami terima dan akan diproses segera. Silakan duduk manis menunggu pengantaran.</p>
+                <button type="button" class="btn btn-primary mb-5" data-dismiss="modal">Kembali</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- End of Modal Checkout -->
+
+
+    <!-- Footer -->
+    <footer class="border-top mt-5">
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <h4>Pizza Club</h4>
+                    <p>Pizza terbaik dibuat dengan hati❤️</p>
+                </div>
+                <div class="col-6 col-sm-3">
+                    <a href="#">Info Nutrisi</a><br>
+                    <a href="#">Tentang Kami</a><br>
+                    <a href="#">Promo Spesial</a><br>
+                    <a href="#">Cara Pemesanan</a>                
+                </div>
+                <div class="col-6 col-sm-3">
+                    <a href="#">Hubungi Kami</a><br>
+                    <a href="#">Kebijakan & Privasi</a><br>
+                    <a href="#">Informasi Karir</a><br>
+                    <a href="#">Sertifikasi & Jaminan</a>    
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center bg-light container-fluid m-0 footnote">
+            <p>2020 Copyright Pizza Club | All Right Reserve</p>
+        </div>
+    </footer>
+    
+
+    <!-- End of Footer -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/all.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
